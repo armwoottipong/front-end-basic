@@ -3,6 +3,13 @@
     margin: 3rem auto;
 }
 
+.Customers-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0; 
+    gap: 0;
+}
 
 .Customers-wrapper img {
     height: 50%;
@@ -49,14 +56,6 @@
     width: 48px;
 }
 
-.Customers-wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem 0;
-    gap: 0;
-}
-
 .meet-btn a {
     display: flex;
     width: 223px;
@@ -68,6 +67,7 @@
     gap: 8px;
 }
 
+
 @media (max-width:700px) {
     .Customers-content ul {
         flex-wrap: wrap;
@@ -76,10 +76,6 @@
 
     .Customers-content ul li {
         margin: 10px;
-    }
-
-    .Customers-wrapper {
-        padding: 0 15px;
     }
 
 
@@ -95,6 +91,7 @@
         align-items: center;
         flex-direction: row;
         gap: 4.875rem;
+        padding: 2rem 0; 
     }
 
     .Customers-wrapper img {
