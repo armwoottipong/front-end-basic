@@ -1,11 +1,11 @@
 import React from 'react'
 import img9 from '../../assets/img/Customers/image-9.png'
-import Logo from '../../assets/img/Customers/logo.svg'
-import Logo1 from '../../assets/img/Customers/logo-1.svg'
-import Logo2 from '../../assets/img/Customers/logo-2.svg'
-import Logo3 from '../../assets/img/Customers/logo-3.svg'
-import Logo4 from '../../assets/img/Customers/logo-4.svg'
-import Logo5 from '../../assets/img/Customers/logo-5.svg'
+import Logo from '../../assets/img/Customers/Logo.svg'
+import Logo1 from '../../assets/img/Customers/Logo-1.svg'
+import Logo2 from '../../assets/img/Customers/Logo-2.svg'
+import Logo3 from '../../assets/img/Customers/Logo-3.svg'
+import Logo4 from '../../assets/img/Customers/Logo-4.svg'
+import Logo5 from '../../assets/img/Customers/Logo-5.svg'
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 import './Customers.css'
