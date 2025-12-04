@@ -6,7 +6,7 @@
 
 .demo-page h1 {
     line-height: 1.2;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #263238;
     margin-bottom: 2rem;
@@ -133,6 +133,10 @@ a {
 
     .links ul {
         width: 160px;
+    }
+
+    .demo-page h1 {
+        font-size: 4rem;
     }
 
 }
