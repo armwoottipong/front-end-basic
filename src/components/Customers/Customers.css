@@ -75,13 +75,13 @@
     }
 
     .Customers-content ul li {
-        margin: 10px;
+        padding-right: 1rem;
     }
 
 
     .meet-btn {
+        padding: 0.5rem 0;
         width: 100%;
-        justify-content: center;
     }
 }
 
