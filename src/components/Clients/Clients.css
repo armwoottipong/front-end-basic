@@ -1,0 +1,44 @@
+.client-section {
+    height: auto;
+}
+
+.client-section h1 {
+    color: #4D4D4D;
+    font-size: 2.25rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.client-section p {
+    font-size: 1rem;
+    color: #717171;
+    margin-bottom: 1rem;
+}
+
+.client-section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.client-section ul li img {
+    height: 3rem;
+}
+
+@media (min-width: 786px) {
+    .client-section {
+        height: 11.875rem;
+        margin: 2.5rem 0;
+    }
+
+    .client-section ul {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .client-section p {
+        margin-bottom: 2rem;
+    }
+}

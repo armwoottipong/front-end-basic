@@ -1,0 +1,54 @@
+.unlock-section {
+    height: auto;
+    margin: 1rem auto;
+}
+
+.unlock-section img {
+    height: 433px;
+    width: 442px;
+}
+
+.unlock-content {
+    text-align: center;
+}
+
+.unlock-content h2 {
+    margin-bottom: 1rem;
+}
+
+.unlock-content p {
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+}
+
+.unlock-btn {
+    display: inline-block;
+    background-color: #4CAF4F;
+    padding: 0.875rem 2rem;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.unlock-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width:1024px) {
+    .unlock-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .unlock-section {
+        height: 433px;
+        margin: 0 auto;
+    }
+
+    .unlock-content {
+        text-align: left;
+    }
+}
