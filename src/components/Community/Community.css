@@ -80,3 +80,19 @@
         top: 10px;
     }
 }
+
+@media (max-width:760px) {
+    .community-card {
+        flex-direction: column;
+        gap: 5px;
+
+        .community-card-content {
+            text-align: center;
+        }
+    }
+
+    .community-section img {
+        width: 8rem;
+        height: auto;
+    }
+}
